@@ -37,7 +37,7 @@ Run exploit binary:
 ./dirty is_secure
 ```
 
-Login as firefart
+Login as firefart:
 ```bash
 su firefart
 Password: is_secure
