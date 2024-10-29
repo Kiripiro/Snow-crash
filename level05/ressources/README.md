@@ -72,7 +72,7 @@ Run:
 echo 'getflag > /tmp/flag_05' > /opt/openarenaserver/getflag.sh
 ```
 
-After two minutes (pair)m, you should run:
+After two minutes (pair), you should run:
 ```bash
 cat  /tmp/flag_05
 ```
